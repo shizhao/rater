@@ -27,13 +27,13 @@ var getListOfBannersFromApi = function() {
 
 	var categories = [
 		{
-			title: "Category:WikiProject banners with quality assessment",
+			title: "Category:含质量评级的专题横幅",
 			abbreviation: "withRatings",
 			banners: [],
 			processed: $.Deferred()
 		},
 		{
-			title: "Category:WikiProject banners without quality assessment",
+			title: "Category:不含质量评级的专题横幅",
 			abbreviation: "withoutRatings",
 			banners: [],
 			processed: $.Deferred()
@@ -45,7 +45,7 @@ var getListOfBannersFromApi = function() {
 			processed: $.Deferred()
 		},
 		{
-			title: "Category:WikiProject banner templates not based on WPBannerMeta",
+			title: "Category:专题标志模板",
 			abbreviation: "notWPBM",
 			banners: [],
 			processed: $.Deferred()
